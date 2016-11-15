@@ -1,0 +1,559 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  background: -webkit-radial-gradient(at 55% 35%, rgba(255, 84, 116, 0.1) 0%, #ff5474 50%);
+  background: radial-gradient(at 55% 35%, rgba(255, 84, 116, 0.1) 0%, #ff5474 50%);
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden; }
+  .container .wrapper {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .container .wrapper .graphics .graphic1 {
+      position: absolute;
+      height: 150px;
+      width: auto;
+      top: 55%;
+      left: 29%; }
+    .container .wrapper .graphics .graphic2 {
+      position: absolute;
+      height: 250px;
+      width: auto;
+      top: 0%;
+      left: 0%; }
+    .container .wrapper .graphics .graphic3 {
+      position: absolute;
+      height: 450px;
+      width: auto;
+      top: 25%;
+      right: -10%; }
+    .container .wrapper .logo {
+      position: relative;
+      width: 70%;
+      height: 50%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .container .wrapper .logo img {
+        height: 70%;
+        -webkit-transform: translateY(30%);
+            -ms-transform: translateY(30%);
+                transform: translateY(30%); }
+    .container .wrapper .statement {
+      position: relative;
+      width: 70%;
+      height: 20%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-transform: translateY(-100%);
+          -ms-transform: translateY(-100%);
+              transform: translateY(-100%); }
+      .container .wrapper .statement p {
+        font-weight: 100;
+        font-size: 2em;
+        font-family: Courgette; }
+    .container .wrapper .contact {
+      left: 15%;
+      width: 70%;
+      height: 30%;
+      background: white;
+      position: absolute;
+      bottom: 0px;
+      -webkit-box-shadow: 0 0 4px black;
+              box-shadow: 0 0 4px black; }
+      .container .wrapper .contact #mc_embed_signup_scroll {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 100%; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form {
+          width: 40%;
+          margin-left: 10px;
+          margin-right: 10px;
+          padding-left: 20px;
+          padding-top: 15px; }
+          .container .wrapper .contact #mc_embed_signup_scroll .form input {
+            width: 80%;
+            border: none;
+            border-bottom: 1px solid #aaa;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 300;
+            -webkit-border-radius: 0px;
+                    border-radius: 0px; }
+          .container .wrapper .contact #mc_embed_signup_scroll .form input:focus {
+            outline: none;
+            border-bottom: 2px solid #ff5474; }
+        .container .wrapper .contact #mc_embed_signup_scroll .submit {
+          width: 10%;
+          margin-left: 10px;
+          margin-right: 10px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .container .wrapper .contact #mc_embed_signup_scroll .submit input:focus {
+            outline: none; }
+          .container .wrapper .contact #mc_embed_signup_scroll .submit .but {
+            background: url(../img/airplane_opt.svg), #ff5474;
+            background-size: cover;
+            height: 50px;
+            width: 50px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            border: none; }
+        .container .wrapper .contact #mc_embed_signup_scroll .description {
+          width: 50%;
+          margin-left: 10px;
+          margin-right: 10px;
+          color: black;
+          font-weight: bold;
+          text-align: justify;
+          padding-right: 20px;
+          padding-left: 30px;
+          font-size: 1.2em; }
+
+.display-block {
+  display: block; }
+
+.display-none {
+  display: none; }
+
+.submission {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+  .submission .mask {
+    width: 100%;
+    height: 100%;
+    background: #222;
+    -webkit-animation: mask 1s 4s ease-in-out forwards;
+            animation: mask 1s 4s ease-in-out forwards; }
+  .submission .header {
+    width: 100%;
+    height: 30%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-animation: comein 2s ease-in-out forwards;
+            animation: comein 2s ease-in-out forwards; }
+    .submission .header .not-sent {
+      -webkit-animation: stay 1s ease-in-out forwards;
+              animation: stay 1s ease-in-out forwards;
+      height: 60%;
+      width: auto;
+      position: absolute; }
+    .submission .header .sent {
+      height: 60%;
+      width: auto;
+      position: absolute;
+      opacity: 0;
+      -webkit-animation: fade-in 0.5s 4s ease-in-out forwards;
+              animation: fade-in 0.5s 4s ease-in-out forwards; }
+    .submission .header .loader {
+      height: 6px;
+      width: 10px;
+      -webkit-transform: translate(40px);
+          -ms-transform: translate(40px);
+              transform: translate(40px);
+      -webkit-animation: loader 1s 4 linear;
+              animation: loader 1s 4 linear; }
+  .submission .body {
+    width: 100%;
+    height: 70%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative; }
+    .submission .body .message {
+      -webkit-animation: stay 1s ease-in-out forwards;
+              animation: stay 1s ease-in-out forwards;
+      width: 50%;
+      font-size: 1.2em;
+      color: white;
+      z-index: 10;
+      text-align: justify; }
+
+.facebook {
+  width: 100%;
+  text-decoration: none;
+  color: rgba(255, 84, 116, 0);
+  font-weight: bold;
+  text-align: center; }
+
+.submission-screen {
+  -webkit-animation: toscale 1s ease-in-out forwards;
+          animation: toscale 1s ease-in-out forwards; }
+
+@-webkit-keyframes toscale {
+  from {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+  to {
+    -webkit-transform: scaleX(0.6);
+            transform: scaleX(0.6); } }
+
+@keyframes toscale {
+  from {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+  to {
+    -webkit-transform: scaleX(0.6);
+            transform: scaleX(0.6); } }
+
+@-webkit-keyframes stay {
+  from {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+  to {
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); } }
+
+@keyframes stay {
+  from {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); }
+  to {
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); } }
+
+@-webkit-keyframes comein {
+  from {
+    -webkit-transform: translate(100%);
+            transform: translate(100%); }
+  to {
+    -webkit-transform: translate(0%);
+            transform: translate(0%); } }
+
+@keyframes comein {
+  from {
+    -webkit-transform: translate(100%);
+            transform: translate(100%); }
+  to {
+    -webkit-transform: translate(0%);
+            transform: translate(0%); } }
+
+@-webkit-keyframes mask {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); }
+  to {
+    -webkit-transform: translateY(-70%);
+            transform: translateY(-70%); } }
+
+@keyframes mask {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); }
+  to {
+    -webkit-transform: translateY(-70%);
+            transform: translateY(-70%); } }
+
+@-webkit-keyframes loader {
+  from {
+    background: rgba(255, 84, 116, 0);
+    -webkit-transform: scale(1) translateX(40px);
+            transform: scale(1) translateX(40px); }
+  to {
+    background: #ff5474;
+    -webkit-transform: scale(1.2) translateX(100px);
+            transform: scale(1.2) translateX(100px); } }
+
+@keyframes loader {
+  from {
+    background: rgba(255, 84, 116, 0);
+    -webkit-transform: scale(1) translateX(40px);
+            transform: scale(1) translateX(40px); }
+  to {
+    background: #ff5474;
+    -webkit-transform: scale(1.2) translateX(100px);
+            transform: scale(1.2) translateX(100px); } }
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); } }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1.6);
+            transform: scaleX(1.6); } }
+
+@media screen and (max-width: 900px) {
+  .container .wrapper {
+    width: 100%; }
+    .container .wrapper .graphics .graphic1 {
+      height: 125px;
+      width: auto;
+      top: 45%;
+      left: 19%; }
+    .container .wrapper .graphics .graphic2 {
+      height: 175px;
+      width: auto; }
+    .container .wrapper .graphics .graphic3 {
+      height: 275px;
+      width: auto; }
+    .container .wrapper .logo img {
+      height: 55%; }
+    .container .wrapper .statement {
+      -webkit-transform: translateY(-150%);
+          -ms-transform: translateY(-150%);
+              transform: translateY(-150%); }
+    .container .wrapper .contact {
+      height: 35%;
+      margin-left: auto;
+      margin-right: auto; }
+      .container .wrapper .contact #mc_embed_signup_scroll {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form {
+          width: 70%;
+          padding-right: 0px; }
+          .container .wrapper .contact #mc_embed_signup_scroll .form input {
+            width: 90%; }
+          .container .wrapper .contact #mc_embed_signup_scroll .form input:focus {
+            outline: none;
+            border-bottom: 2px solid #ff5474; }
+        .container .wrapper .contact #mc_embed_signup_scroll .submit {
+          width: 10%; }
+          .container .wrapper .contact #mc_embed_signup_scroll .submit .but {
+            height: 50px;
+            width: 50px; }
+        .container .wrapper .contact #mc_embed_signup_scroll .description {
+          width: 100%;
+          font-size: 1.3em; }
+  .submission .body .message {
+    -webkit-animation: stay 1s ease-in-out forwards;
+            animation: stay 1s ease-in-out forwards;
+    width: 50%;
+    font-size: 0.8em;
+    color: white;
+    z-index: 10;
+    text-align: justify; } }
+
+@media screen and (max-width: 420px) {
+  .container .wrapper .graphics .graphic1 {
+    height: 50px;
+    width: auto;
+    top: 38%;
+    left: 13%; }
+  .container .wrapper .graphics .graphic2 {
+    height: 100px;
+    width: auto;
+    top: 0%;
+    left: 0%; }
+  .container .wrapper .graphics .graphic3 {
+    height: 150px;
+    width: auto;
+    top: 25%;
+    right: -10%; }
+  .container .wrapper .logo {
+    width: 80%; }
+    .container .wrapper .logo img {
+      height: 40%;
+      -webkit-transform: translateY(45%);
+          -ms-transform: translateY(45%);
+              transform: translateY(45%); }
+  .container .wrapper .statement {
+    -webkit-transform: translateY(-195%);
+        -ms-transform: translateY(-195%);
+            transform: translateY(-195%); }
+    .container .wrapper .statement p {
+      font-size: 1.3em; }
+  .container .wrapper .contact {
+    left: 10%;
+    width: 80%;
+    height: 50%; }
+    .container .wrapper .contact #mc_embed_signup_scroll {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .container .wrapper .contact #mc_embed_signup_scroll .form {
+        width: 80%;
+        padding-right: 0px;
+        padding-left: 0px; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form input {
+          width: 100%;
+          font-size: 1em;
+          margin-left: auto;
+          margin-right: auto; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form input:focus {
+          outline: none;
+          border-bottom: 2px solid #ff5474; }
+      .container .wrapper .contact #mc_embed_signup_scroll .submit {
+        width: 100%; }
+        .container .wrapper .contact #mc_embed_signup_scroll .submit .but {
+          height: 50px;
+          width: 50px; }
+      .container .wrapper .contact #mc_embed_signup_scroll .description {
+        width: 100%;
+        font-size: 0.8em;
+        margin: 0px;
+        padding-left: 30px;
+        padding-right: 30px; }
+  .submission .header .not-sent {
+    height: 40%;
+    top: 32%;
+    left: 42%; }
+  .submission .header .sent {
+    height: 40%;
+    top: 32%;
+    left: 42%; }
+  .submission .body .message {
+    font-size: 1em; } }
+
+@media screen and (max-width: 340px) {
+  .container .wrapper .graphics .graphic1 {
+    height: 50px;
+    width: auto;
+    top: 34%;
+    left: 8%; }
+  .container .wrapper .graphics .graphic2 {
+    height: 80px;
+    width: auto;
+    top: 0%;
+    left: 0%; }
+  .container .wrapper .graphics .graphic3 {
+    height: 100px;
+    width: auto;
+    top: 25%;
+    right: -10%; }
+  .container .wrapper .logo {
+    width: 80%; }
+    .container .wrapper .logo img {
+      height: 40%;
+      -webkit-transform: translateY(25%);
+          -ms-transform: translateY(25%);
+              transform: translateY(25%); }
+  .container .wrapper .statement {
+    -webkit-transform: translateY(-220%);
+        -ms-transform: translateY(-220%);
+            transform: translateY(-220%); }
+    .container .wrapper .statement p {
+      font-size: 1.3em; }
+  .container .wrapper .contact {
+    left: 5%;
+    width: 90%;
+    height: 55%; }
+    .container .wrapper .contact #mc_embed_signup_scroll {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .container .wrapper .contact #mc_embed_signup_scroll .form {
+        width: 80%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form input {
+          width: 90%;
+          font-size: 1em; }
+        .container .wrapper .contact #mc_embed_signup_scroll .form input:focus {
+          outline: none;
+          border-bottom: 2px solid #ff5474; }
+      .container .wrapper .contact #mc_embed_signup_scroll .submit {
+        width: 100%; }
+        .container .wrapper .contact #mc_embed_signup_scroll .submit .but {
+          height: 45px;
+          width: 45px; }
+      .container .wrapper .contact #mc_embed_signup_scroll .description {
+        width: 100%;
+        font-size: 0.8em;
+        margin: 0px;
+        padding-left: 30px;
+        padding-right: 30px; }
+  .submission .header .not-sent {
+    height: 40%;
+    top: 32%;
+    left: 42%; }
+  .submission .header .sent {
+    height: 40%;
+    top: 32%;
+    left: 42%; }
+  .submission .body .message {
+    font-size: 1em; } }
